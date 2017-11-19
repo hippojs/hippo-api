@@ -6,6 +6,10 @@ extends:
 env:
   node: true
 
+globals:
+  $: true
+  videojs: true
+
 plugins: 
   - prettier
 

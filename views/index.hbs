@@ -11,6 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
+    <link href="http://vjs.zencdn.net/6.4.0/video-js.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -22,12 +23,17 @@
         <![endif]-->
 
     <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <p>Hello world! This is first video from Hippo!.</p>
+
+    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="http://vjs.zencdn.net/v/oceans.png">
+    </video>
+
     <script src="javascripts/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-3.2.1.min.js"><\/script>')</script>
     <script src="javascripts/plugins.js"></script>
+    <script src="http://vjs.zencdn.net/6.4.0/video.js"></script>
     <script src="javascripts/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
